@@ -85,9 +85,6 @@ plt.ylabel('Count age')
 
 ```python
 # Create Chart
-pass_counts = df_th.value_counts()
-sns.barplot(x = 'Month', y = age_counts.values)
-
 plt.figure(figsize=(8,5))
 sns.countplot(x= 'Month', data = df_th)
 plt.title('Distribution of Thailand passengers by Month')
