@@ -52,7 +52,7 @@ df.isnull().sum()
 # Show statistics about data (show only numeric data)
 df.describe()
 ```
-### leaning data
+### Cleaning data
 ```python
 # Cleaning data
 # separate day and month from Departure Date
